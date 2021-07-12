@@ -6,9 +6,11 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Staatliches', cursive;
-    color: #15B9D5;
+    color: #15b9d5;
 }
 h1 {
     font-size: 3.4rem;
@@ -21,11 +23,11 @@ h3 {
 }
 
 .btn-success {
-    background-color: #DC135F;
-    border-color: #DC135F;
-    padding: .8rem 0;
+    background-color: #dc135f;
+    border-color: #dc135f;
+    padding: 0.8rem 0;
     text-transform: uppercase;
-    border-radius: .8rem;
+    border-radius: 0.8rem;
 }
 .btn-success:hover {
     background-color: rgb(184, 5, 73);
@@ -49,10 +51,10 @@ h3 {
     font-family: 'Covered By Your Grace', cursive;
     font-size: 4rem;
     order: -1;
-    line-height: .8;
-    color: rgba(255, 255, 255, .5);
+    line-height: 0.8;
+    color: rgba(255, 255, 255, 0.5);
 }
-@media (min-width:768px) {
+@media (min-width: 768px) {
     .slider em {
         font-size: 8rem;
     }
@@ -79,19 +81,27 @@ p {
     line-height: 2;
 }
 .navegacion {
-    background-color: #15B9D5;
+    background-color: #15b9d5;
 }
 header .nav a {
-    font-family: 'Staatliches', cursive;
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: white;
 }
-footer .nav a,
-.copyright {
-    font-family: 'Staatliches', cursive;
-    font-size: 1.6rem;
-    color: black;
+footer .nav a {
+    font-size: 1.1rem;
+    color: white;
 }
+
+.footer {
+    background-color: #27191f;
+}
+
+.copyright {
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    color: #696165;
+}
+
 .listado-iconos {
     background-color: rgb(245, 245, 245);
 }
@@ -99,23 +109,27 @@ footer .nav a,
     height: 100px;
 }
 
-
 .descuento {
     height: 400px;
-    background-image: linear-gradient( rgba(0, 0, 0, .5) 0%,  rgba(0, 0, 0, .5) 100%),  url(../img/cupon.jpg);
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5) 0%,
+            rgba(0, 0, 0, 0.5) 100%
+        ),
+        url(../img/cupon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media (min-width:768px) {
+@media (min-width: 768px) {
     .descuento {
         height: 400px;
-        background-image:  linear-gradient(
-            to right, 
-            rgba(0, 0, 0, .5) 0%, 
-            rgba(0, 0, 0, .5) 50%, 
-            transparent 50%, 
-            transparent 100%
-        ), url(../img/cupon.jpg);
+        background-image: linear-gradient(
+                to right,
+                rgba(0, 0, 0, 0.5) 0%,
+                rgba(0, 0, 0, 0.5) 50%,
+                transparent 50%,
+                transparent 100%
+            ),
+            url(../img/cupon.jpg);
     }
 }
 .descuento .contenido {
@@ -127,26 +141,26 @@ footer .nav a,
 }
 .descuento p {
     font-family: 'Staatliches', cursive;
-    line-height: .8;
+    line-height: 0.8;
 }
 .descuento .titulo {
     font-size: 2.4rem;
 }
 .descuento .precio {
-    color: #15B9D5;
+    color: #15b9d5;
     font-size: 3rem;
 }
 
 .proximos-viajes p {
-    font-size: .9rem;
+    font-size: 0.9rem;
 }
 i {
-    color: #DC135F;
+    color: #dc135f;
     font-size: 2rem;
 }
 
-.testimoniales p{
-    font-size: .8rem;
+.testimoniales p {
+    font-size: 0.8rem;
     font-weight: normal;
 }
 .testimoniales p::before {
@@ -162,7 +176,7 @@ i {
 }
 .blockquote-footer {
     text-align: right;
-    color: #DC135F;
+    color: #dc135f;
     font-weight: bold;
     margin-top: 1rem;
 }
