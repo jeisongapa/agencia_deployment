@@ -4,8 +4,8 @@
   "description": "Primer proyecto con node",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node server"
+    "start": "node server",
+    "dev": "nodemon index.js"
   },
   "type": "module",
   "author": "Jeison Garcia",
@@ -19,6 +19,7 @@
   },
   
   "devDependencies": {
+    "dotenv": "^10.0.0",
     "nodemon": "^2.0.12"
   }
 }
